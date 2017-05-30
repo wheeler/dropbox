@@ -24,7 +24,7 @@ Dropbox.requestCredential = function(options, credentialRequestCompleteCallback)
   var loginStyle = OAuth._loginStyle('dropbox', config, options);
 
   var loginUrl =
-    'https://www.dropbox.com/1/oauth2/authorize?client_id=' + config.appKey +
+    'https://www.dropbox.com/oauth2/authorize?client_id=' + config.appKey +
     '&redirect_uri=' + OAuth._redirectUri('dropbox', config) +
     '&response_type=code' +
     '&state=' + OAuth._stateParam(loginStyle, credentialToken, options && options.redirectUrl);

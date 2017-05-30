@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'helium:dropbox',
+  name: 'wheeler:dropbox',
   version: '1.0.0',
   summary: 'Dropbox OAuth flow',
   git: 'https://github.com/meteor-helium/dropbox.git',

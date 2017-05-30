@@ -49,7 +49,7 @@ var getTokenResponse = function (query) {
   try {
     // Request an access token
     responseContent = HTTP.post(
-      "https://api.dropboxapi.com/1/oauth2/token", {
+      "https://api.dropboxapi.com/oauth2/token", {
         params: {
           code: query.code,
           grant_type: 'authorization_code',
